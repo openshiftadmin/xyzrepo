@@ -1,0 +1,19 @@
+yum install maven -y
+yum install java-1.8.0-openjdk -y
+
+amazon-linux-extras install java-openjdk11 -y
+
+  
+nexus: 
+ install java 1.8.0
+  mkdir /app
+go to insoide of folder then down laod nexs repo
+wget  https://download.sonatype.com/nexus/3/nexus-3.69.0-02-java8-unix.tar.gz
+rename the file repo to nexus
+create the user nexus
+change the ownership to 2 repos
+
+nexus.service script
+
+
+
